@@ -1,0 +1,156 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./form.css">
+    <title>Geek formulário</title>
+</head>
+
+<body>
+    <div class="container">
+        <form action="success.html" id="aa">
+            <div class="form-group">
+                <label for="inputAddress">Endereço</label>
+                <input type="text" class="form-control" id="inputAddress" name="inputAddress" placeholder="Rua da santa, Bairro da Felicidade">
+            </div>
+            <div class="form-group">
+                <label for="inputAddress2">Complemento</label>
+                <input type="text" class="form-control" id="inputAddress2" name="inputAddress2" placeholder="Apartamento, andar">
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="inputCity">Cidade</label>
+                    <input type="text" name="inputCity" class="form-control" id="inputCity">
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="inputState">Estado</label>
+                    <select name="inputState" id="inputState" class="form-control">
+                        <option value="AC">Acre</option>
+                        <option value="AL">Alagoas</option>
+                        <option value="AP">Amapá</option>
+                        <option value="AM">Amazonas</option>
+                        <option value="BA">Bahia</option>
+                        <option value="CE">Ceará</option>
+                        <option value="DF">Distrito Federal</option>
+                        <option value="ES">Espírito Santo</option>
+                        <option value="GO">Goiás</option>
+                        <option value="MA">Maranhão</option>
+                        <option value="MT">Mato Grosso</option>
+                        <option value="MS">Mato Grosso do Sul</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="PA">Pará</option>
+                        <option value="PB">Paraíba</option>
+                        <option value="PR">Paraná</option>
+                        <option value="PE">Pernambuco</option>
+                        <option value="PI">Piauí</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="RN">Rio Grande do Norte</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="RO">Rondônia</option>
+                        <option value="RR">Roraima</option>
+                        <option value="SC">Santa Catarina</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="SE">Sergipe</option>
+                        <option value="TO">Tocantins</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-2">
+                    <label for="inputZip">Cep</label>
+                    <input name="inputZip" type="text" class="form-control" id="inputZip">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm">
+                    <div class="card" >
+                        <img src="https://static.expressodelivery.com.br/media/0.01.001/img/lanche.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <label>Quero esse!</label>
+                            <input type="checkbox" name="lanches[]">
+                            <h5>Excalibur R$ 16,90</h5>
+                            <p>Sanduíche com pão australiano + bacon + salada (alface, tomate) e 180g de maminha</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card" >
+                        <img src="https://www.natuslanches.com.br/wp-content/uploads/2014/12/natus-lanches-passo-fundo-45-x-bacon-200x200.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <label>Quero esse!</label>
+                            <input type="checkbox" name="lanches[]">
+                            <h5>X-Vader R$ 26,90</h5>
+                            <p>Sanduíche com pão brioche + bacon + salada (alface, tomate) + cheddar e 180g de maminha</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card" >
+                        <img src="https://images.rappi.com.br/products/2097016233-1584566006424.png?d=128x90" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <label>Quero esse!</label>
+                            <input type="checkbox" name="lanches[]">
+                            <h5>Sonic Boom R$ 19,90</h5>
+                            <p>Sanduíche com pão italiano + salada (alface, tomate) + 4 queijos  e 180g de contra filé</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-sm">
+                    <div class="card" >
+                        <img src="https://www.auau.com.br/image/cache/data/up_system/product-13700/SANDUICHE-DE-MIGNON-200x200.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <label>Quero esse!</label>
+                            <input type="checkbox" name="lanches[]">
+                            <h5>Attack on Picles R$ 16,90</h5>
+                            <p>Sanduíche com pão francês + bacon + salada (alface, tomate) + cheddar + picles e 180g de maminha</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card" >
+                        <img src="https://www.natuslanches.com.br/wp-content/uploads/2014/12/natus-lanches-passo-fundo-47-x-file1-200x200.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <label>Quero esse!</label>
+                            <input type="checkbox" name="lanches[]">
+                            <h5>Veganoninho Xtreme R$ 32,90</h5>
+                            <p>Sanduíche com pão australiano + salada (alface, tomate) + molho de mostarda e mel e 180g de TOFU</p>
+                        </div>
+                    </div>
+                </div> 
+                <div class="col-sm">
+                    <div class="card" >
+                        <img src="https://www.natuslanches.com.br/wp-content/uploads/2014/12/natus-lanches-passo-fundo-46-x-frango-200x200.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <label>Quero esse!</label>
+                            <input type="checkbox" name="lanches[]">
+                            <h5>127.0.0.1 R$ 30,90</h5>
+                            <p>Sanduíche com gostinho de casa  feito com pão australiano + feijoada + laranja + molho de alho e 260g de costela</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Realizar Pedido</button>
+        </form>
+    </div>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.2/dist/jquery.validate.js"></script>
+    <script src="./form.js"></script>
+
+</html>
